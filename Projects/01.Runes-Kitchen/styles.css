@@ -1,0 +1,25 @@
+/**
+Color Pallete:
+Black #05080A
+Dark Green #273238
+Gray #5D7283
+Mustard #F5BC53
+Orange #F08233
+Red #A62A22
+Beige #E5D4BE
+*/
+
+body {
+    background-color: #05080a;
+}
+
+h1 {
+    color: #F08233;
+}
+
+h2 {
+    color: #F5BC53;
+}
+p {
+    color: #e5d4be;
+}
