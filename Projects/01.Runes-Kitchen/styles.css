@@ -20,6 +20,36 @@ h1 {
 h2 {
     color: #F5BC53;
 }
+
 p {
-    color: #e5d4be;
+    color: #E5D4BE;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    width: 10%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.buttons {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    margin: 12px;
+    width: 75%;
+    height: 100%;
+}
+
+li {
+    color: #E5D4BE;
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
 }
