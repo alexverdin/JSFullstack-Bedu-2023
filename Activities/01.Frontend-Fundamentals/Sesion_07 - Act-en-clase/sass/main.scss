@@ -1,0 +1,7 @@
+@use 'global' as *;
+
+.blog {
+    background-color: $green-bg;
+    height: $size;
+    width: $size;
+}

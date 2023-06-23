@@ -1,0 +1,30 @@
+h3 {
+    color: rgb(51, 51, 255);
+}
+
+.botonera {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+.tarjeta img {
+    width: 200px;
+}
+
+.button-small-icon {
+    width:15px;
+    height: 15px;
+}
+
+#contenido {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}

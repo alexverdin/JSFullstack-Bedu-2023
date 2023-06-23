@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.space {
+    margin: 0 auto;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 35px;
+    margin-top: 50px;
+
+    .spaceship-container{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 65px;
+
+        .spaceship {
+            position: absolute;
+            height: 130px;
+            width: 130px;
+            transform: rotate(90deg);
+
+            animation-name: travel;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+
+            // Trayectoria circular
+            offset-path: path("M 100,300 m -200,0 a 200,200 0 1,0 400,0 a 200,200 0 1,0 -400,0");
+            offset-rotate: auto;
+            offset-distance: 0%;
+
+            img {
+                width: 130px;
+            }
+        }
+
+        @keyframes travel {
+            0% {
+                //left: 0;
+                offset-distance: 0%; // Posición inicial en la trayectoria
+              }
+              100% {
+                //left: 0;
+                offset-distance: 100%; // Posición final en la trayectoria
+              }
+        }
+    }
+}

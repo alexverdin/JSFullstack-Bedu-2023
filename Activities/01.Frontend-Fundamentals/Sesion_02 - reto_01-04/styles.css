@@ -33,10 +33,10 @@ a {
     vertical-align: middle;
 }
 
-.actions {
+.buttons {
     display: inline-block;
     width: 15%;
-    text-align: right;
+    text-align: center;
 }
 
 nav {
