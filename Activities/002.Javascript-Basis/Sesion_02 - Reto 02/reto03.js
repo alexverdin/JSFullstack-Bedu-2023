@@ -20,7 +20,7 @@ function esPrimo(primo){
     return true;
 }
 
-for(let num = 0; num <= 100; num++){
+for(let num = 0; num <= 1000; num++){
     if(esPrimo(num)){
         console.log(num);
     }
